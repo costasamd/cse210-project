@@ -7,8 +7,6 @@ public class Fraction
     {
         _top = 1;
         _botton = 1;
-
-
     }
 
     public Fraction(int wholeNumber)
