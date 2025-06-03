@@ -4,7 +4,10 @@ public class Comment
 
     public string _comment;
 
-    public List<Comment> comments = new();
+    public void Display()
+    {
+        Console.WriteLine($"Comment Author: {_name} and Comment: {_comment}");
+    }
 
     
 }
